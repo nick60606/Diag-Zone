@@ -6,9 +6,9 @@ const Header = ({ className = '' }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navigationItems = [
-    { name: 'Home', href: '/homepage', icon: 'Home' },
+    { name: 'Home', href: '/', icon: 'Home' },
     { name: 'Services', href: '/services-by-brand', icon: 'Wrench' },
-    { name: 'Client Portal', href: '/client-portal-dashboard', icon: 'User' },
+    { name: 'Client Portal', href: href: '/client-portal', icon: 'User' },
   ];
 
   const secondaryItems = [
